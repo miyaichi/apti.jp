@@ -23,6 +23,7 @@ CloudFront + ACM で HTTPS 対応します。
 ---
 
 ## ディレクトリ構成（案）
+```
 aspi.jp/
 ├── index.html # トップページ（ランディング）
 ├── about.html # 設立趣意書＋APTIの概要
@@ -37,7 +38,7 @@ aspi.jp/
 │ 　└── js/
 │ 　└── main.js # 簡単なJS（フォームなど）
 └── favicon.ico
-
+```
 ---
 
 ## ページ構成
