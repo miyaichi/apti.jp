@@ -17,7 +17,7 @@
 - ✅ **レスポンシブデザイン**: PC・タブレット・モバイル対応
 - ✅ **AWS S3 + CloudFront**: 静的ホスティング + CDN配信
 - ✅ **GitHub Actions**: 自動デプロイメント
-- ✅ **設立趣意書**: 完全実装済み
+- ✅ **設立趣意書**: 日英版準備中
 
 ---
 
@@ -44,8 +44,7 @@ apti.jp/
 ├── .github/
 │   └── workflows/
 │       └── deploy.yml      # AWS S3自動デプロイ
-├── favicon.ico
-└── APTI設立趣意書.txt      # 原稿ファイル
+└── favicon.ico
 ```
 ---
 
@@ -133,10 +132,10 @@ apti.jp/
 
 ### 必要な環境変数（GitHub Secrets）
 ```
-AWS_ACCESS_KEY_ID       # AWS アクセスキー
-AWS_SECRET_ACCESS_KEY   # AWS シークレットキー  
-S3_BUCKET_NAME         # apti.jp
-CLOUDFRONT_DISTRIBUTION_ID  # E2JLP61JXB57VX
+AWS_ACCESS_KEY_ID           # AWS アクセスキー
+AWS_SECRET_ACCESS_KEY       # AWS シークレットキー  
+S3_BUCKET_NAME              # S3 バケット名（apti.jp）
+CLOUDFRONT_DISTRIBUTION_ID  # CloudFront ディストリビューション ID（キャッシュ無効化のため）
 ```
 
 ### ローカル開発
