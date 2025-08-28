@@ -141,6 +141,49 @@ section {
     margin-bottom: 3rem;
 }
 
+/* About Page Styles */
+.about-content section {
+    margin-bottom: 4rem;
+    padding: 2rem 0;
+}
+
+.about-content section:not(:last-child) {
+    border-bottom: 1px solid var(--gray-light);
+}
+
+.about-pillars {
+    background-color: var(--gray-light);
+    padding: 3rem 2rem;
+    margin: 0 -2rem;
+    border-radius: 8px;
+}
+
+.pillar {
+    margin-bottom: 2rem;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 6px;
+    border-left: 4px solid var(--accent-color);
+}
+
+.pillar:last-child {
+    margin-bottom: 0;
+}
+
+.pillar h3 {
+    color: var(--main-color);
+    margin-bottom: 1rem;
+}
+
+.founders-note {
+    font-style: italic;
+    color: var(--gray-medium);
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--gray-light);
+    border-radius: 6px;
+}
+
 h1 {
     font-size: 2.5rem;
     color: var(--main-color);
