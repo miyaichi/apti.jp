@@ -14,12 +14,20 @@
             <div class="logo">
                 <img src="assets/img/logo.png" alt="APTI Logo">
             </div>
-            <ul>
-                <li><a href="index.html">ホーム</a></li>
-                <li><a href="about.html">設立趣意書</a></li>
-                <li><a href="join.html">参加・賛同</a></li>
-                <li><a href="news.html">お知らせ</a></li>
-            </ul>
+            <div class="nav-content">
+                <ul>
+                    <li><a href="index.html">ホーム</a></li>
+                    <li><a href="about.html">設立趣意書</a></li>
+                    <li><a href="join.html">参加・賛同</a></li>
+                    <li><a href="news.html">お知らせ</a></li>
+                </ul>
+                <div class="language-switcher">
+                    <select id="languageSelect" onchange="changeLanguage(this.value)">
+                        <option value="ja">日本語</option>
+                        <option value="en">English</option>
+                    </select>
+                </div>
+            </div>
         </nav>
     </header>
 
