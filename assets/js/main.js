@@ -8,7 +8,8 @@ const languageConfig = {
             'index.html': 'index.html',
             'about.html': 'about.html',
             'join.html': 'join.html',
-            'news.html': 'news.html'
+            'news.html': 'news.html',
+            'privacy.html': 'privacy.html'
         }
     },
     'en': {
@@ -17,7 +18,8 @@ const languageConfig = {
             'index.html': 'index.html',
             'about.html': 'about.html',
             'join.html': 'join.html',
-            'news.html': 'news.html'
+            'news.html': 'news.html',
+            'privacy.html': 'privacy.html'
         }
     }
 };
