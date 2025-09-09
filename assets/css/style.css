@@ -152,13 +152,13 @@ nav a:hover {
 
 .btn-secondary {
     background-color: transparent;
-    color: white;
-    border-color: white;
+    color: var(--main-color);
+    border-color: var(--main-color);
 }
 
 .btn-secondary:hover {
-    background-color: white;
-    color: var(--main-color);
+    background-color: var(--main-color);
+    color: white;
 }
 
 /* Main Content */
@@ -340,6 +340,169 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+/* IAB Standards Page Styles */
+.iab-standards-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.standards-intro {
+    background-color: var(--gray-light);
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 3rem;
+}
+
+.standards-intro .note {
+    background-color: #fff3cd;
+    border: 1px solid #ffeaa7;
+    border-radius: 4px;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.standards-list {
+    margin-bottom: 3rem;
+}
+
+.standard-item {
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.standard-item h3 {
+    color: var(--main-color);
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.standard-description {
+    color: var(--gray-medium);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.standard-links {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.available-translations {
+    border-top: 2px solid var(--gray-light);
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.translations-intro {
+    font-size: 1.1rem;
+    color: var(--gray-medium);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.translation-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.translation-card {
+    background: white;
+    border: 1px solid var(--gray-light);
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.translation-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.translation-card h3 {
+    color: var(--main-color);
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.translation-card p {
+    color: var(--gray-medium);
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
+.translation-card .btn {
+    width: 100%;
+    justify-content: center;
+}
+
+.translation-content {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.translation-content h3 {
+    color: var(--main-color);
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--accent-color);
+}
+
+.translation-note {
+    background: #e3f2fd;
+    border-left: 4px solid var(--main-color);
+    padding: 1.5rem;
+    border-radius: 0 4px 4px 0;
+}
+
+.translation-note p {
+    margin-bottom: 0.5rem;
+}
+
+.translation-note p:last-child {
+    margin-bottom: 0;
+}
+
+.contribution-section {
+    background: var(--gray-light);
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.translation-principles {
+    margin-top: 2rem;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 6px;
+}
+
+.translation-principles h3 {
+    color: var(--main-color);
+    margin-bottom: 1rem;
+}
+
+.translation-principles ul {
+    list-style-type: disc;
+    padding-left: 2rem;
+}
+
+.translation-principles li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
 }
 
 /* Responsive Design */
