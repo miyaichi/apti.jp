@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://apti.jp/sitemap.xml
+
+# Common crawl delay
+Crawl-delay: 1
+
+# Disallow common admin/backend paths (if any exist in future)
+Disallow: /admin/
+Disallow: /private/
