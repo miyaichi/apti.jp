@@ -29,11 +29,13 @@ apti.jp/
 ├── about.html              # 日本語設立趣意書
 ├── join.html               # 日本語参加フォーム
 ├── news.html               # 日本語お知らせ
+├── standards-tools.html    # 日本語規格とツール
 ├── en/                     # 英語版ディレクトリ
 │   ├── index.html          # English top page
 │   ├── about.html          # English mission statement
 │   ├── join.html           # English join form
-│   └── news.html           # English news
+│   ├── news.html           # English news
+│   └── standards-tools.html # English Standards & Tools
 ├── assets/
 │   ├── css/
 │   │   └── style.css       # 共通スタイル（多言語対応）
@@ -86,6 +88,12 @@ apti.jp/
 - イベント告知
 - 活動レポート
 - 技術トピック共有
+
+### **5. 規格とツール / Standards & Tools**
+- IAB Tech Lab規約の日本語翻訳
+- 透明性推進のためのオープンソースツール
+  - AdsTxt Inspector: ads.txt検証・可視化ツール
+  - AdsTxt Manager: ads.txt/app-ads.txt/sellers.json一元管理プラットフォーム
 
 ---
 

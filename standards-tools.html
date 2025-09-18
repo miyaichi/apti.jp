@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IAB Tech Lab規約 日本語翻訳 - APTI</title>
+    <title>規格とツール - APTI</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" href="favicon.ico">
 </head>
@@ -20,7 +20,7 @@
                     <li><a href="about.html">設立趣意書</a></li>
                     <li><a href="join.html">参加・賛同</a></li>
                     <li><a href="news.html">お知らせ</a></li>
-                    <li><a href="iab-standards.html">IAB Tech Lab規約</a></li>
+                    <li><a href="standards-tools.html">規格とツール</a></li>
                     <li><a href="privacy.html">プライバシーポリシー</a></li>
                 </ul>
                 <div class="language-switcher">
@@ -36,19 +36,23 @@
     <!-- Main Content -->
     <main>
         <section class="iab-standards-content">
-            <h1>IAB Tech Lab規約 日本語翻訳</h1>
+            <h1>規格とツール</h1>
             
             <section class="standards-intro">
-                <p>ads.txt/sellers.json/SupplyChain Objectの各規定を周知するため、IAB Tech Labの公式文書を日本語に翻訳して提供しています。これらの規約は、透明で健全な広告サプライチェーンの構築に不可欠な技術仕様です。</p>
-                
-                <p class="note">※ 以下の翻訳は理解促進を目的としており、正式な仕様については必ず<a href="https://iabtechlab.com/" target="_blank">IAB Tech Lab公式サイト</a>の原文をご参照ください。</p>
+                <p>APTIでは、広告業界の透明性向上を支援するため、IAB Tech Lab規約の日本語翻訳と独自開発のオープンソースツールを提供しています。これらのリソースは、透明で健全な広告サプライチェーンの構築に貢献します。</p>
             </section>
 
             <section class="standards-list">
-                <h2>IAB Tech Lab規約 日本語翻訳一覧</h2>
+                <h2>1. IAB Standards</h2>
+
+                <p>ads.txt/sellers.json/SupplyChain Objectの各規定を周知するため、IAB Tech Labの公式文書を日本語に翻訳して提供しています。</p>
+
+                <p class="note">※ 以下の翻訳は理解促進を目的としており、正式な仕様については必ず<a href="https://iabtechlab.com/" target="_blank">IAB Tech Lab公式サイト</a>の原文をご参照ください。</p>
+
+                <h3>IAB Tech Lab規約 日本語翻訳一覧</h3>
                 
                 <div class="standard-item">
-                    <h3>1. ads.txt Version 1.1</h3>
+                    <h4>ads.txt Version 1.1</h4>
                     <p class="standard-description">
                         広告主と販売者の関係を公開するためのテキストファイル仕様。パブリッシャーが認定された販売者を明示することで、広告詐欺の防止と透明性の向上を図ります。
                     </p>
@@ -59,7 +63,7 @@
                 </div>
 
                 <div class="standard-item">
-                    <h3>2. Authorized Sellers for Apps (app-ads.txt)</h3>
+                    <h4>Authorized Sellers for Apps (app-ads.txt)</h4>
                     <p class="standard-description">
                         モバイルアプリ向けのads.txt仕様。アプリ内広告における認定販売者の関係を明確にし、アプリ広告の透明性を確保します。
                     </p>
@@ -70,7 +74,7 @@
                 </div>
 
                 <div class="standard-item">
-                    <h3>3. ads.txt Implementation Guide</h3>
+                    <h4>ads.txt Implementation Guide</h4>
                     <p class="standard-description">
                         ads.txtの実装に関する実践的なガイド。技術的な実装方法から運用上のベストプラクティスまでを包括的に解説しています。
                     </p>
@@ -81,7 +85,7 @@
                 </div>
 
                 <div class="standard-item">
-                    <h3>4. Sellers.json</h3>
+                    <h4>Sellers.json</h4>
                     <p class="standard-description">
                         広告技術プロバイダーが販売者情報を公開するためのJSON仕様。ads.txtと連携して、サプライチェーン全体の透明性を実現します。
                     </p>
@@ -92,13 +96,41 @@
                 </div>
 
                 <div class="standard-item">
-                    <h3>5. FAQ for sellers.json and SupplyChain Object</h3>
+                    <h4>FAQ for sellers.json and SupplyChain Object</h4>
                     <p class="standard-description">
                         sellers.jsonとSupplyChain Objectに関するよくある質問と回答集。実装時の疑問解決と理解促進に役立ちます。
                     </p>
                     <div class="standard-links">
                         <a href="https://iabtechlab.com/wp-content/uploads/2019/07/FAQ-for-sellers.json_supplychain-object.pdf" target="_blank" class="btn btn-secondary">原文PDF</a>
                         <a href="assets/docs/FAQ-for-sellers.json_supplychain-objec-ja.pdf" target="_blank" class="btn btn-primary">日本語翻訳PDF</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="tools-section">
+                <h2>2. Open Tools for Transparency</h2>
+
+                <p>APTIは、広告取引の透明性を推進するために、誰でも利用できる無償のツールを提供しています。すべてオープンソースとして公開し、業界全体の信頼性向上に寄与することを目指しています。</p>
+
+                <div class="standard-item">
+                    <h3>AdsTxt Inspector</h3>
+                    <p class="standard-description">
+                        自社サイトや取引先サイトの ads.txt を検証・可視化するツール
+                    </p>
+                    <div class="standard-links">
+                        <a href="https://chromewebstore.google.com/detail/adstxt-inspector/bgojlbkldapcmiimeafldjghcnbgcjha?hl=ja" target="_blank" class="btn btn-primary">ツールを利用する</a>
+                        <a href="https://github.com/miyaichi/adstxt-Inspector" target="_blank" class="btn btn-secondary">ソースコード (GitHub)</a>
+                    </div>
+                </div>
+
+                <div class="standard-item">
+                    <h3>AdsTxt Manager</h3>
+                    <p class="standard-description">
+                        ads.txt / app-ads.txt / sellers.json を一元管理できる運用プラットフォーム
+                    </p>
+                    <div class="standard-links">
+                        <a href="https://adstxt-manager.jp/" target="_blank" class="btn btn-primary">サービスを利用する</a>
+                        <a href="https://github.com/miyaichi/adstxt-manager" target="_blank" class="btn btn-secondary">ソースコード (GitHub)</a>
                     </div>
                 </div>
             </section>
