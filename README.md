@@ -4,7 +4,7 @@
 
 **Advertisers and Publishers Transparency Initiative (APTI)** は、  
 広告主とパブリッシャーが共に**支えあい**、  
-透明で健全な広告サプライチェーンを実現するための任意団体です。
+透明で健全な広告サプライチェーンを実現するための一般社団法人です。
 
 このリポジトリでは、APTI公式サイト（[https://apti.jp](https://apti.jp)）の  
 **MVP版サイト**を構築・管理します。
