@@ -129,6 +129,7 @@ nav a:hover {
     font-size: 2.5rem;
     margin-bottom: 1rem;
     font-weight: 700;
+    color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -178,6 +179,12 @@ nav a:hover {
 .btn-secondary:hover {
     background-color: var(--main-color);
     color: white;
+}
+
+/* Hero section specific button styles */
+.hero .btn-secondary {
+    color: white;
+    border-color: white;
 }
 
 /* Main Content */
